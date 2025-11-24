@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Putri Arum Silviana — Portofolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-anim" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-wrap" id="navWrap">
+      <a class="brand" href="#home">
+        <div class="logo">PA</div>
+        <div>
+          <div class="brand-name">Putri Arum Silviana</div>
+          <div class="brand-sub">Mahasiswa Sistem Informasi</div>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" title="Toggle mode" aria-pressed="false">
+          <i class="fa-regular fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Buka menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container" id="home">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="heroHeading">
+      <div class="hero-card fade-up" data-reveal>
+        <div class="hero-tag">
+          <div class="pill">Universitas Komputama</div>
+          <div class="school">Sistem Informasi</div>
+        </div>
+
+        <h1 class="hero-title" id="heroHeading">Putri Arum Silviana</h1>
+        <p class="hero-role">Mahasiswa Sistem Informasi</p>
+
+        <div class="hero-subtag">
+          <div id="typingText" class="typing-text" aria-live="polite"></div>
+          <div class="typing-cursor" id="heroCursor">|</div>
+        </div>
+
+        <p class="hero-desc">
+          Mahasiswa yang berfokus pada pengembangan web, desain antarmuka, dan pemanfaatan teknologi digital untuk solusi efisien.
+        </p>
+
+        <div class="hero-ctas">
+          <button class="btn btn-primary" id="downloadCVBtn"> <i class="fa-solid fa-download" style="margin-right:8px"></i>Download CV</button>
+          <button class="btn btn-outline" id="contactBtn"> <i class="fa-solid fa-envelope" style="margin-right:8px"></i>Hubungi Saya</button>
+        </div>
+      </div>
+
+      <div class="avatar" aria-hidden="true">
+        <div class="avatar-circle" id="avatarCircle" title="Avatar Putri Arum Silviana">
+          <div class="avatar-inner">Putri Arum<br/>Silviana</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="fade-up" data-reveal>
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Siapa saya & latar belakang singkat</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <p class="about-text">
+            Putri Arum Silviana adalah mahasiswa Sistem Informasi Universitas Komputama yang memiliki ketertarikan pada pengembangan web, desain antarmuka, teknologi digital, dan pemanfaatan sistem informasi untuk memecahkan masalah secara efisien. Memahami dasar-dasar HTML, CSS, JavaScript, serta berkomitmen untuk terus belajar dan berkembang dalam dunia teknologi.
+          </p>
+
+          <div class="chips">
+            <span class="chip">Web</span>
+            <span class="chip">UI/UX</span>
+            <span class="chip">Learning</span>
+          </div>
+        </div>
+
+        <aside class="bio-card fade-up" data-reveal>
+          <h3 class="bio-title">Biodata</h3>
+          <ul class="bio-list">
+            <li><span>Nama</span><span>Putri Arum Silviana</span></li>
+            <li><span>Prodi</span><span>Sistem Informasi</span></li>
+            <li><span>Kampus</span><span>Universitas Komputama</span></li>
+            <li><span>Hobi</span><span>Desain, Membaca, Coding</span></li>
+            <li><span>Minat</span><span>Web Dev, UI/UX, Data</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="fade-up" data-reveal>
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>Technical & Soft Skills</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card skill-card--tech fade-up" data-reveal>
+          <h3>Technical Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>HTML</span><span>90%</span></div>
+            <div class="progress" data-percent="90"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>CSS</span><span>88%</span></div>
+            <div class="progress" data-percent="88"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>JavaScript</span><span>76%</span></div>
+            <div class="progress" data-percent="76"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>UI/UX Basic</span><span>72%</span></div>
+            <div class="progress" data-percent="72"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>Database Basic</span><span>65%</span></div>
+            <div class="progress" data-percent="65"><span></span></div>
+          </div>
+        </div>
+
+        <div class="skill-card skill-card--soft fade-up" data-reveal>
+          <h3>Soft Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>Komunikasi</span><span>90%</span></div>
+            <div class="progress" data-percent="90"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>Kerjasama Tim</span><span>88%</span></div>
+            <div class="progress" data-percent="88"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>Problem Solving</span><span>85%</span></div>
+            <div class="progress" data-percent="85"><span></span></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-row"><span>Manajemen Waktu</span><span>80%</span></div>
+            <div class="progress" data-percent="80"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="fade-up" data-reveal>
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>Contoh proyek & eksperimen</p>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <article class="project-card" data-tilt data-reveal>
+          <div class="project-thumb">Sistem Informasi Akademik (Prototype)</div>
+          <h4 class="project-title">SIA - Prototype</h4>
+          <div class="project-meta">
+            <div class="project-tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+            </div>
+            <a class="link-view" href="#">Lihat</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tilt data-reveal>
+          <div class="project-thumb">Landing Page - NGO</div>
+          <h4 class="project-title">Landing Page Amal</h4>
+          <div class="project-meta">
+            <div class="project-tags">
+              <span class="tag">Responsive</span><span class="tag">UI</span>
+            </div>
+            <a class="link-view" href="#">Lihat</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tilt data-reveal>
+          <div class="project-thumb">Desain UI/UX</div>
+          <h4 class="project-title">Redesign Aplikasi</h4>
+          <div class="project-meta">
+            <div class="project-tags">
+              <span class="tag">Figma</span><span class="tag">Prototype</span>
+            </div>
+            <a class="link-view" href="#">Lihat</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tilt data-reveal>
+          <div class="project-thumb">Mini App - ToDo</div>
+          <h4 class="project-title">Todo App</h4>
+          <div class="project-meta">
+            <div class="project-tags">
+              <span class="tag">Vanilla JS</span><span class="tag">LocalStorage</span>
+            </div>
+            <a class="link-view" href="#">Lihat</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="fade-up" data-reveal>
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Ringkasan pengalaman & pendidikan</p>
+      </div>
+
+      <p class="resume-para">
+        Putri Arum Silviana aktif mengembangkan keterampilan pengembangan web dan desain antarmuka melalui proyek-proyek kecil, latihan mandiri, serta pelatihan daring. Fokus pada pemecahan masalah menggunakan teknologi web modern, membangun antarmuka yang ramah pengguna, dan selalu bersemangat meningkatkan kompetensi pada JavaScript, UI/UX, dan integrasi sistem informasi.
+      </p>
+
+      <div class="timeline" aria-hidden="false">
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div>
+            <div class="timeline-content">Universitas Komputama — Sistem Informasi</div>
+            <div class="timeline-sub">2022 — Sekarang</div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div>
+            <div class="timeline-content">Pelatihan Frontend Dasar</div>
+            <div class="timeline-sub">Sertifikat Online • 2024</div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div>
+            <div class="timeline-content">Proyek Mini: Todo App & Landing Page</div>
+            <div class="timeline-sub">2023 — 2024</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="fade-up" data-reveal>
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Terhubung dengan saya</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card contact-form">
+          <form id="contactForm">
+            <div class="form-row">
+              <input class="input" id="name" name="name" required placeholder="Nama Anda" />
+              <input class="input" id="email" name="email" type="email" required placeholder="Email" />
+            </div>
+            <textarea id="message" name="message" rows="5" required placeholder="Pesan Anda..." style="min-height:120px"></textarea>
+            <div class="form-actions">
+              <button class="btn btn-outline" type="reset">Reset</button>
+              <button class="btn btn-primary" type="submit">Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
+
+        <aside class="contact-card contact-info">
+          <div class="contact-item"><i class="fa-solid fa-envelope"></i><div><div class="c-title">Email</div><div class="c-sub">putri.arum@universitaskomputama.ac.id</div></div></div>
+          <div class="contact-item"><i class="fa-solid fa-phone"></i><div><div class="c-title">Telepon</div><div class="c-sub">+62 812-XXXX-XXXX</div></div></div>
+          <div class="contact-item"><i class="fa-brands fa-instagram"></i><div><div class="c-title">Instagram</div><div class="c-sub">@putriarum</div></div></div>
+          <div class="contact-item"><i class="fa-brands fa-whatsapp"></i><div><div class="c-title">WhatsApp</div><div class="c-sub">+62 812-XXXX-XXXX</div></div></div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Putri Arum Silviana — Universitas Komputama
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
